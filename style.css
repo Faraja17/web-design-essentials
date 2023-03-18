@@ -39,6 +39,13 @@ header {
     border-bottom: 8px solid #292828;
 }
 
+.form {
+    margin: 0 auto;
+}
+
+.form-input {
+    display: block;
+}
 
 /* Headings */
 h1{
@@ -54,7 +61,7 @@ button {
     border: 1px solid #f52e2e;
 }
 
-.kids {
+.kids, .home {
     font-size: .8rem;
 }
 
