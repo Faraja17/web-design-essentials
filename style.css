@@ -1,3 +1,71 @@
+/* Remove Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Settings */
+html {
+    font-size: 100%;
+    background-color: #000000;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: right;
+    height: 40px;
+    background-image: url(images/getflix\ logo\ \(2\).png);
+    background-size: 110px 60px;
+    background-position: left;
+    background-repeat: no-repeat ;
+}
+
+/* Header */
+header {
+    background-image: url(images/neflix\ hero2.png);
+    background-color: #443e3e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 440px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 8px solid #292828;
+}
+
+
+/* Headings */
+h1{
+    font-size: 1.8rem;
+}
+
+/* Buttons */
+
+button {
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #f52e2e;
+    border: 1px solid #f52e2e;
+}
+
+.kids {
+    font-size: .8rem;
+}
+
+.faq {
+    font-size: .7rem;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+}
+
+/* Footer */
+
+li {
+    display: inline-block;
 }

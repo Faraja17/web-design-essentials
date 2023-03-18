@@ -6,12 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Getflix </title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
  </head>
  <body>
     <!-- Navigation -->
     <nav>
-        <a href="#faq"><button type="button">☆ Q & A ▾</button> </a>
-        <a href="#kids"><button>Kids</button></a>
+        <a href="#faq"><button type="button" class="faq">☆ Q & A ▾</button> </a>
+        <a href="#kids"><button type="button" class="kids">Kids</button></a>
     </nav>
 
     <!-- Header -->
@@ -21,8 +25,8 @@
             <h2>Watch anywhere. Cancel anytime.</h2>
             <section>
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                <input type="email" id="email" name="email" placeholder="Email address">
-                <a href="signup.html"><button>Get Started</button></a>
+                <input type="email" id="email" placeholder="Email address">
+                <a href="signup.html"><button type="button">Get Started ›</button></a>
             </section>
         </section>      
     </header>
@@ -54,9 +58,6 @@
     <hr>
 
     <!-- FAQ Accordian -->
-    <section>
-        <h1 id="faq">Frequently Asked Questions</h1>
-    </section>
     <h1 id="faq">Frequently Asked Questions</h1>
     <details>
         <summary> What is Getflix?</summary>
@@ -72,6 +73,12 @@
         <summary>What's different on an ad-supported plan?</summary>
         <h2>Tiramisu dragée dragée sweet roll I love chupa chups oat cake shortbread marzipan.</h2>
     </details>
+
+    <section>
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="email" id="email" placeholder="Email address">
+        <a href="signup.html"><button type="button">Get Started ›</button></a>
+    </section>
 
     <hr>
 
@@ -93,7 +100,7 @@
         <br>
 
         <section>
-            <h3>©&copy 2023 Faraja Thompson</h3>
+            <h3>&copy 2023 Faraja Thompson</h3>
         </section>
     </footer>
    
