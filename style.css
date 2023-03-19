@@ -40,11 +40,35 @@ header {
 }
 
 .form {
-    margin: 0 auto;
+    margin: 0 30%;
+    background-color: #000000;
+    padding: 20px 0;
 }
 
 .form-input {
     display: block;
+    margin: 20px auto;
+    width: 70%;
+    padding: 10px;
+    background-color: #292828;
+    color: #645c5c;
+    font-size: larger;
+    border-style: none;
+    border-radius: 4px;
+}
+
+.form-signup {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+
+.form-link {
+    margin-right: 0;
+    padding-left: 120px;
 }
 
 /* Headings */
@@ -59,9 +83,10 @@ button {
     color: #ffffff;
     background-color: #f52e2e;
     border: 1px solid #f52e2e;
+    border-radius: 4px;
 }
 
-.kids, .home {
+.kids {
     font-size: .8rem;
 }
 
@@ -69,6 +94,12 @@ button {
     font-size: .7rem;
     background-color: #000000;
     border: 1px solid #ffffff;
+}
+
+.home {
+    margin-right: 100%;
+    opacity: 0;
+    font-size: 40px;
 }
 
 /* Footer */
